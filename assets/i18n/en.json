@@ -1,0 +1,46 @@
+{
+    "title": "Government Polytechnic Adityapur",
+    "department":"Department of Higher & Technical Education, Government of Jharkhand",
+    "home": {
+        "pm": "PRINCIPAL'S MESSAGE",
+        "para1": "This is the era of liberalization, privatization and globalization. The need of the hour is training individuals in dynamic way and make them to face different challenges thrown up by rapidly changing socio-economic technical scenario at the Global level. The Younger Generation must strive to develop into a well rounded personality with excellent Technical, Managerial, interpersonal and communication skills poised at the cutting-edge of Technology.",
+        "para2":"In this context, Government Polytechnic, Adityapur is using it's best effort to impart technical training on the base of holistic approach.",
+        "para3":"I am happy to be a part of this Dynamic and Vibrant Institute of <b>Department of Higher & Technical Education, Government of Jharkhand</b>. My endeavor is to introduce a pioneering course of growth to achieve the height of excellence and become an important force to recon with in the field of Technical education Vision global Scenario.",
+        "pname":"DR SRIKANT PRASAD"
+    },
+    "courses": {
+        "head": "DEPARTMENTS",
+        "me": "Mechanical Engineering",
+        "ee": "Electrical Engineering",
+        "cse": "Computer Science Engineering",
+        "mt": "Metallurgical Engineering",
+        "para":"Syllabus available on Jharkhand University of Technology Official Website "
+    },
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "admission": "Admission",
+        "notice": "Notice",
+        "faculty": "Faculty",
+        "disclosure":"Mandetory Disclosure",
+        "placement":"Placement",
+        "grievance":"Grievance",
+        "gallery":"Gallery",
+        "contact":"Contact",
+        "faq":"FAQ"
+    },
+    "about": {
+        "heading": "ABOUT US",
+        "subheading1": "Location & Accessibility",
+        "subheading2": "Hostel",
+        "para1": "The institute is located on the Tata-Kandra Main Road at a distance of about 8 kms and 3 kms from Tata Nagar Railway Station and Adityapur Railway Station respectively. It is situated in the industrial hub of Adityapur. The major industries that are benefiting the students include Tata Steel, Tata Motors, Tayo Rolls Ltd., Usha Martin Ltd., Adhunik Steel and many more. National Institute of Technology (N.I.T.) Jamshedpur is at a distance of about 2 kms towards South. The simplest and the most economical way to reach is by bus or auto-rickshaw which runs throughout the day.",
+        "para2": "The most distinctive feature of the campus is the hostel facility provided by the college catering to the residential requirement of 100 students. Hospitals, Post-Office, Banks and ATMs are also situated nearby the institute campus to provide the modern amenities of today’s life."
+    },
+    "admission": {
+        "heading": "ADMISSION",
+        "subheading1": "Course Fee",
+        "subheading2": "Examination",
+        "para1": "Admission procedure is carried out by an open advertisement made by Jharkhand Combined Entrance Competitive Examination Board(JCECEB), Ranchi which invites application, conducts written test at different centers in the state and subsequently arranges counseling works of the selected candidates on merit basis to get admission in different Government Polytechnics / Mining Institutes / Other approved private polytechnics of the state. Reservation policy of the Jharkhand Government is strictly maintained in this selection process. Beside this 1 seat in each discipline is also reserved for the ward of defense personal.",
+        "para2": "The examination and certification of the selected and admitted candidates are done by Jharkhand University of Technology(JUT), Ranchi, Jharkhand. At present, semester system. Minimum 75% attendance of the students is necessary for appearing at their Board Examinations conducted by Jharkhand University of Technology(JUT), Ranchi, Jharkhand."
+    }
+}
