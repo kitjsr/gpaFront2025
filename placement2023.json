@@ -1,0 +1,930 @@
+{
+  "current": {
+    "mechanical": [
+      {
+        "id": "1",
+        "BoardRoll": "20402125001",
+        "Name": "Akanksha Kumari",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "2",
+        "BoardRoll": "20402120034",
+        "Name": "Ritesh Mandal",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "3",
+        "BoardRoll": "20402120014",
+        "Name": "Dhanjeet Kumar Singh",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "4",
+        "BoardRoll": "20402120048",
+        "Name": "Suraj Kumar",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "5",
+        "BoardRoll": "20402120051",
+        "Name": "Vishal Oraon",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "6",
+        "BoardRoll": "20402120043",
+        "Name": "Saurav Kumar Gupta",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "7",
+        "BoardRoll": "20402120038",
+        "Name": "Rupesh Kumar",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "8",
+        "BoardRoll": "20402120017",
+        "Name": "Kamal Mahato",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "9",
+        "BoardRoll": "20402120052",
+        "Name": "Vishal Prajapati",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "10",
+        "BoardRoll": "20402125003",
+        "Name": "Amit Kumar Pandit",
+        "Company": "Tata Power / ArcelorMittal Nippon Steel / Tata Steel Long Products(In Panel)"
+      },
+      {
+        "id": "11",
+        "BoardRoll": "20402120025",
+        "Name": "Nipen Sahis",
+        "Company": "Tata Steel Long Products(In Panel) /  Welspun metallics Ltd, Gujrat / Subros Ltd."
+      },
+      {
+        "id": "12",
+        "BoardRoll": "20402120022",
+        "Name": "Motilal Swansi",
+        "Company": "ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "13",
+        "BoardRoll": "20402120028",
+        "Name": "Piyush Singh",
+        "Company": "Tata Power / L & T / ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "14",
+        "BoardRoll": "20402120004",
+        "Name": "Amit Agarwal",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "15",
+        "BoardRoll": "20402120036",
+        "Name": "Rohit Kumar",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "16",
+        "BoardRoll": "20402120007",
+        "Name": "Ankit Raj",
+        "Company": "Tata Power / L & T"
+      },
+      {
+        "id": "17",
+        "BoardRoll": "20402120035",
+        "Name": "Rohan Kumar",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "18",
+        "BoardRoll": "20402120031",
+        "Name": "Rajnish Kumar",
+        "Company": "Tata Power / Jindal Saw Gujrat / Welspun metallics Ltd, Gujrat / CMR Green Technologies Ltd"
+      },
+      {
+        "id": "19",
+        "BoardRoll": "20402120015",
+        "Name": "Gangadhar Kumar",
+        "Company": "Jindal Saw Gulf LLC, Abu Dhabi / Ramgarh Sponge Iron and Shriram Power & Steel / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "20",
+        "BoardRoll": "20402120024",
+        "Name": "Nikesh Pramanik",
+        "Company": "Jindal Saw Gulf LLC, Abu Dhabi / ArcellorMittal Nippon Steel / Welspun metallics Ltd, Gujrat / Tata Consulting Engineers, Jamshedpur"
+      },
+      {
+        "id": "21",
+        "BoardRoll": "20402120053",
+        "Name": "Yash Raj Yadav",
+        "Company": "Jindal Saw Gulf LLC, Abu Dhabi"
+      },
+      {
+        "id": "22",
+        "BoardRoll": "20402120011",
+        "Name": "Chandni Kumari Jha",
+        "Company": "Tata Steel Ltd. / Prayagraj Power Generation Company Ltd., Prayagraj, UP"
+      },
+      {
+        "id": "23",
+        "BoardRoll": "20402120026",
+        "Name": "Nitish Kumar",
+        "Company": "Prayagraj Power Generation Company Ltd., Prayagraj, UP / L & T"
+      },
+      {
+        "id": "24",
+        "BoardRoll": "20402120023",
+        "Name": "Nehal Kumar",
+        "Company": "L & T / Jindal Saw Gujrat"
+      },
+      {
+        "id": "25",
+        "BoardRoll": "20402120003",
+        "Name": "Alok Kumar",
+        "Company": "L & T / Jindal Saw Gujrat"
+      },
+      {
+        "id": "26",
+        "BoardRoll": "20402120046",
+        "Name": "Subhash Kumar Mahto",
+        "Company": "ArcelorMittal Nippon Steel / Tata Consulting Engineers, Jamshedpur"
+      },
+      {
+        "id": "27",
+        "BoardRoll": "20402120045",
+        "Name": "Shubham Prasad",
+        "Company": "Usha Martin Ltd. Ranchi / Welspun Metalics Pvt. Ltd., Gujrat / L & T"
+      },
+      {
+        "id": "28",
+        "BoardRoll": "20402120020",
+        "Name": "Kunal Kumar Singh",
+        "Company": "Usha Martin Ltd. Ranchi / Subros Ltd."
+      },
+      {
+        "id": "29",
+        "BoardRoll": "20402120021",
+        "Name": "Manish Kumar",
+        "Company": "Usha Martin Ltd. Ranchi / Welspun Metalics Pvt. Ltd., Gujrat / Tata Consulting Engineers, Jamshedpur / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "30",
+        "BoardRoll": "20402125002",
+        "Name": "Aman Kumar Dutta",
+        "Company": "Usha Martin Ltd. Ranchi / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "31",
+        "BoardRoll": "20402120044",
+        "Name": "Shaurabh Tiwari",
+        "Company": "Welspun metallics Ltd, Gujrat  / Subros Ltd."
+      },
+      {
+        "id": "32",
+        "BoardRoll": "20402120030",
+        "Name": "Raja Kumar",
+        "Company": "Welspun metallics Ltd, Gujrat / CMR Green Technologies Ltd / Tata Consulting Engineers, Jamshedpur"
+      },
+      {
+        "id": "33",
+        "BoardRoll": "20402120005",
+        "Name": "Ankit Kumar",
+        "Company": "Welspun metallics Ltd, Gujrat  / Subros Ltd. / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "34",
+        "BoardRoll": "20402120006",
+        "Name": "Ankit Kumar Sharma",
+        "Company": "Welspun metallics Ltd, Gujrat / Tata Consulting Engineers, Jamshedpur / L & T / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "35",
+        "BoardRoll": "20402120006",
+        "Name": "Abhishek Singha",
+        "Company": "CMR Green Technologies Ltd / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "36",
+        "BoardRoll": "20402120039",
+        "Name": "Sagar Das",
+        "Company": "Subros Ltd"
+      },
+      {
+        "id": "37",
+        "BoardRoll": "20402120033",
+        "Name": "Ram Kumar",
+        "Company": "Tata Consulting Engineers, Jamshedpur / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "38",
+        "BoardRoll": "20402120018",
+        "Name": "Karan Kumar",
+        "Company": "L & T / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "39",
+        "BoardRoll": "20402120009",
+        "Name": "Ashok Kumar Mahato",
+        "Company": "Ramgarh Sponge Iron and Shriram Power & Steel"
+      },
+      {
+        "id": "40",
+        "BoardRoll": "20402120019",
+        "Name": "Kaushik Anand",
+        "Company": "JSPL, Angul"
+      },
+      {
+        "id": "41",
+        "BoardRoll": "20402120040",
+        "Name": "Sagar Tudu",
+        "Company": "JSPL, Angul"
+      },
+      {
+        "id": "42",
+        "BoardRoll": "20402120010",
+        "Name": "Baset Hembrom",
+        "Company": "JSPL, Angul"
+      }
+    ],
+    "electrical": [
+      {
+        "id": "1",
+        "BoardRoll": "20402085001",
+        "Name": "Anishek Raj",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "2",
+        "BoardRoll": "20402080048",
+        "Name": "Suraj Karmali",
+        "Company": "Tata Steel Long Products / Tata Steel Ltd."
+      },
+      {
+        "id": "3",
+        "BoardRoll": "20402080037",
+        "Name": "Roshni Kumari",
+        "Company": "Tata Steel Long Products / Tata Steel Ltd."
+      },
+      {
+        "id": "4",
+        "BoardRoll": "20402080026",
+        "Name": "Neha Kumari Gupta",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "5",
+        "BoardRoll": "20402080045",
+        "Name": "Shreya Sinha",
+        "Company": "ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "6",
+        "BoardRoll": "20402080049",
+        "Name": "Trilochan Mahato",
+        "Company": "Tata Power / ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "7",
+        "BoardRoll": "20402080024",
+        "Name": "Md Umar",
+        "Company": "Tata Power / ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "8",
+        "BoardRoll": "20402080002",
+        "Name": "Aman Kumar Das",
+        "Company": "ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "9",
+        "BoardRoll": "20402080027",
+        "Name": "Nishar Ahmad",
+        "Company": "Tata Power / ArcelorMittal Nippon Steel / Subros Ltd."
+      },
+      {
+        "id": "10",
+        "BoardRoll": "20402080044",
+        "Name": "Shourya Raj",
+        "Company": "Tata Power / ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "11",
+        "BoardRoll": "20402085005",
+        "Name": "Pawan Kumar Mahto",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "12",
+        "BoardRoll": "20402080036",
+        "Name": "Rohit Kumbhakar",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "13",
+        "BoardRoll": "20402080033",
+        "Name": "Raunak Kumar",
+        "Company": "Tata Power  / Subros Ltd."
+      },
+      {
+        "id": "14",
+        "BoardRoll": "20402080041",
+        "Name": "Shan Kumar",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "15",
+        "BoardRoll": "20402080023",
+        "Name": "Madhu Kumari",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "16",
+        "BoardRoll": "20402080010",
+        "Name": "Anupam Sahay Bodra",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "17",
+        "BoardRoll": "20402080029",
+        "Name": "Nitesh Mahto",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "18",
+        "BoardRoll": "20402080043",
+        "Name": "Shivanjali SIngh",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "19",
+        "BoardRoll": "20402080039",
+        "Name": "Satyam Kumar Singh",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "20",
+        "BoardRoll": "20402085003",
+        "Name": "Gunjan Kumar",
+        "Company": "Tata Power / L&T"
+      },
+      {
+        "id": "21",
+        "BoardRoll": "20402080018",
+        "Name": "Jayant Kumar",
+        "Company": "Tata Steel Ltd. / Tata Power / Prayagraj Power Generation Company Ltd., Prayagaj, UP"
+      },
+      {
+        "id": "22",
+        "BoardRoll": "20402080003",
+        "Name": "Aman Raj",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "23",
+        "BoardRoll": "20402080028",
+        "Name": "Nishant Kumar Sharma",
+        "Company": "Tata Power / L & T"
+      },
+      {
+        "id": "24",
+        "BoardRoll": "20402080005",
+        "Name": "Amar Kumar Yadav",
+        "Company": "Prayagraj Power Generation Company Ltd., Prayagaj, UP / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "25",
+        "BoardRoll": "20402080038",
+        "Name": "Sanjeet Mandal",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "26",
+        "BoardRoll": "20402080009",
+        "Name": "Anuj Kumar",
+        "Company": "Welspun metallics Ltd, Gujrat / CMR Green Technologies Ltd  / Subros Ltd. / Tata Consulting Engineers, Jamshedpur / L & T / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "27",
+        "BoardRoll": "20402080034",
+        "Name": "Ravi Ranjan Singh",
+        "Company": "Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "28",
+        "BoardRoll": "20402080008",
+        "Name": "Ankesh Mishra",
+        "Company": "Welspun metallics Ltd, Gujrat / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "29",
+        "BoardRoll": "20402080013",
+        "Name": "Bishal Kumar",
+        "Company": "Welspun metallics Ltd, Gujrat  / Subros Ltd. / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "30",
+        "BoardRoll": "20402080007",
+        "Name": "Animesh Bouri",
+        "Company": "Welspun metallics Ltd, Gujrat  / Subros Ltd. / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "31",
+        "BoardRoll": "20402080007",
+        "Name": "Gaurav Kumar",
+        "Company": "CMR Green Technologies Ltd"
+      },
+      {
+        "id": "32",
+        "BoardRoll": "20402080011",
+        "Name": "Bhanu Kumar",
+        "Company": "Subros Ltd / Ramgarh Sponge Iron and Shriram Power & Steel"
+      },
+      {
+        "id": "33",
+        "BoardRoll": "20402080015",
+        "Name": "Deepak Kumar Mehta",
+        "Company": "Subros Ltd"
+      },
+      {
+        "id": "34",
+        "BoardRoll": "20402085002",
+        "Name": "Damodar Kumar Mahto",
+        "Company": "Tata Consulting Engineers, Jamshedpur / Subros Ltd"
+      },
+      {
+        "id": "35",
+        "BoardRoll": "20402080031",
+        "Name": "Piyush Ranjan",
+        "Company": "Tata Consulting Engineers, Jamshedpur / L & T / Subros Ltd / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "36",
+        "BoardRoll": "20402080016",
+        "Name": "Dhiraj Kumar",
+        "Company": "Tata Consulting Engineers, Jamshedpur / L & T / Subros Ltd / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "37",
+        "BoardRoll": "20402080006",
+        "Name": "Amit Kumar",
+        "Company": "JSW, Dolvi Mumbai"
+      }
+    ],
+    "metallurgy": [
+      {
+        "id": "1",
+        "BoardRoll": "20402130045",
+        "Name": "Sourabh Patro",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "2",
+        "BoardRoll": "20402130006",
+        "Name": "Anjali Kumari",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "3",
+        "BoardRoll": "20402130043",
+        "Name": "Sneha Shruti",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "4",
+        "BoardRoll": "20402135005",
+        "Name": "Vivek Kumar Sahu",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "5",
+        "BoardRoll": "20402130037",
+        "Name": "Sadaqat Ali",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "6",
+        "BoardRoll": "20402130034",
+        "Name": "Ritu Kumari",
+        "Company": "Tata Steel Long Products / Tata Steel Ltd."
+      },
+      {
+        "id": "7",
+        "BoardRoll": "20402130008",
+        "Name": "Arpita Bhabai",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "8",
+        "BoardRoll": "20402130036",
+        "Name": "Rounak Kumar Singh",
+        "Company": "Tata Steel Long Products"
+      },
+      {
+        "id": "9",
+        "BoardRoll": "20402130022",
+        "Name": "Muskan Mahato",
+        "Company": "ArcelorMittal Nippon Steel / Tata Steel Ltd."
+      },
+      {
+        "id": "10",
+        "BoardRoll": "20402130010",
+        "Name": "Bhuban Mahato",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "11",
+        "BoardRoll": "20402130031",
+        "Name": "Ricky Mahapatra",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "12",
+        "BoardRoll": "20402130046",
+        "Name": "Sourav Kumar Das",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "13",
+        "BoardRoll": "20402130004",
+        "Name": "Akanksha Kumari",
+        "Company": "ArcelorMittal Nippon Steel / Tata Steel Ltd."
+      },
+      {
+        "id": "14",
+        "BoardRoll": "20402130036",
+        "Name": "Rounak Kumar Singh",
+        "Company": "ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "15",
+        "BoardRoll": "20402130002",
+        "Name": "Aftab Khan",
+        "Company": "ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "16",
+        "BoardRoll": "20402130047",
+        "Name": "Sourav Kumar Munda",
+        "Company": "ArcelorMittal Nippon Steel"
+      },
+      {
+        "id": "17",
+        "BoardRoll": "20402130011",
+        "Name": "Binod Kumar Das",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "18",
+        "BoardRoll": "20402130052",
+        "Name": "Vishal Haiburu",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "19",
+        "BoardRoll": "20402130040",
+        "Name": "Shashank Mishra",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "20",
+        "BoardRoll": "20402130005",
+        "Name": "Anikesh Ghosh",
+        "Company": "ArcelorMittal Nippon Steel / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "21",
+        "BoardRoll": "20402130016",
+        "Name": "Gulfam Raza Quadri",
+        "Company": "Jindal Saw Gulf LLC, Abu Dhabi / Welspun metallics Ltd, Gujrat / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "22",
+        "BoardRoll": "20402130017",
+        "Name": "Hari Hembrom",
+        "Company": "Jindal Saw Gulf LLC, Abu Dhabi / JSW Bellari / Tata Steel Ltd."
+      },
+      {
+        "id": "23",
+        "BoardRoll": "20402130023",
+        "Name": "Nitish Kumar Rajak",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "24",
+        "BoardRoll": "20402130035",
+        "Name": "Rohit Kumar Mahato",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "25",
+        "BoardRoll": "20402130009",
+        "Name": "Avijit Kumar Patra",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "26",
+        "BoardRoll": "20402130039",
+        "Name": "Saroj Kumar Mahato",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "27",
+        "BoardRoll": "20402130012",
+        "Name": "Chandan Rawani",
+        "Company": "JSW Bellari / ArcellorMittal Nippon Steel"
+      },
+      {
+        "id": "28",
+        "BoardRoll": "20402130028",
+        "Name": "Ram Narayan Mahato",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "29",
+        "BoardRoll": "20402130047",
+        "Name": "Sourabh Kumar Gupta",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "30",
+        "BoardRoll": "20402130033",
+        "Name": "Ritesh Kumar Thakur",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "31",
+        "BoardRoll": "20402130013",
+        "Name": "Deepak Kumar Das",
+        "Company": "JSW Bellari / ArcellorMittal Nippon Steel"
+      },
+      {
+        "id": "32",
+        "BoardRoll": "20402130025",
+        "Name": "Pradumn Kumar",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "33",
+        "BoardRoll": "20402130018",
+        "Name": "Jagatpati Mahato",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "34",
+        "BoardRoll": "20402130001",
+        "Name": "Adhir Mahato",
+        "Company": "JSW Bellari"
+      },
+      {
+        "id": "35",
+        "BoardRoll": "20402130021",
+        "Name": "Md Shaif Khan",
+        "Company": "Jindal Saw Gujrat / Welspun metallics Ltd, Gujrat / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "36",
+        "BoardRoll": "20402130048",
+        "Name": "Subham Sharma",
+        "Company": "Welspun metallics Ltd, Gujrat / CMR Green Technologies Ltd / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "37",
+        "BoardRoll": "20402130042",
+        "Name": "Subham Das",
+        "Company": "Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "38",
+        "BoardRoll": "20402130021",
+        "Name": "Ravi Ranjan Kumar",
+        "Company": "Welspun metallics Ltd, Gujrat / CMR Green Technologies Ltd / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "39",
+        "BoardRoll": "20402130030",
+        "Name": "Ravi Kumar Das",
+        "Company": "Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "40",
+        "BoardRoll": "20402130019",
+        "Name": "Lakhipad Mahato",
+        "Company": "Welspun metallics Ltd, Gujrat / JSW, Dolvi Mumbai"
+      },
+      {
+        "id": "41",
+        "BoardRoll": "20402130024",
+        "Name": "Pawan Munda",
+        "Company": "Tata Steel Ltd. / Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "42",
+        "BoardRoll": "20402130050",
+        "Name": "Sushen Murmu",
+        "Company": "Welspun metallics Ltd, Gujrat"
+      },
+      {
+        "id": "43",
+        "BoardRoll": "20402135001",
+        "Name": "Divesh Mishra",
+        "Company": "Welspun metallics Ltd, Gujrat / CMR Green Technologies Ltd"
+      },
+      {
+        "id": "44",
+        "BoardRoll": "20402130032",
+        "Name": "Rinku Rani Das",
+        "Company": "Tata Steel Ltd."
+      },
+      {
+        "id": "45",
+        "BoardRoll": "20402130003",
+        "Name": "Ajay Tudu",
+        "Company": "Super Smelters"
+      },
+      {
+        "id": "46",
+        "BoardRoll": "20402130027",
+        "Name": "Rajkumar Mahali",
+        "Company": "Ramkrishna Forgings Limited / JSW, Dolvi Mumbai"
+      }, 
+      {
+        "id": "47",
+        "BoardRoll": "20402135003",
+        "Name": "Parsuram Gope",
+        "Company": "JSPL, Angul / Ramgarh Sponge Iron and Shriram Power & Steel"
+      },
+      {
+        "id": "48",
+        "BoardRoll": "20402135004",
+        "Name": "Raj Kumar Khan",
+        "Company": "Ramgarh Sponge Iron and Shriram Power & Steel"
+      },
+      {
+        "id": "49",
+        "BoardRoll": "",
+        "Name": "Shivnath Adityadev",
+        "Company": "Jindal Saw Gulf LLC, Abu Dhabi"
+      },
+      {
+        "id": "50",
+        "BoardRoll": "",
+        "Name": "Rishu Kumar Mouar",
+        "Company": "Tata Tinplate"
+      },
+      {
+        "id": "51",
+        "BoardRoll": "",
+        "Name": "Sachin Kumar Tiwari",
+        "Company": "Tata Tinplate"
+      },
+      {
+        "id": "52",
+        "BoardRoll": "",
+        "Name": "Avi Ranjan Kumar",
+        "Company": "Tata Tinplate"
+      },
+      {
+        "id": "53",
+        "BoardRoll": "",
+        "Name": "Girish Mandal",
+        "Company": "Tata Tinplate"
+      }
+    ],
+    "cse": [
+      {
+        "id": "1",
+        "BoardRoll": "20402060004",
+        "Name": "Aman Kumar",
+        "Company": "Wipro"
+      },
+      {
+        "id": "2",
+        "BoardRoll": "20402060009",
+        "Name": "Atal Kumar",
+        "Company": "Wipro"
+      },
+      {
+        "id": "3",
+        "BoardRoll": "20402060011",
+        "Name": "Chehar Mani",
+        "Company": "Wipro"
+      },
+      {
+        "id": "4",
+        "BoardRoll": "20402060017",
+        "Name": "Nishant Singh",
+        "Company": "Wipro"
+      },
+      {
+        "id": "5",
+        "BoardRoll": "20402060018",
+        "Name": "Nishu Kumari",
+        "Company": "Tata Power / Wipro"
+      },
+      {
+        "id": "6",
+        "BoardRoll": "20402060027",
+        "Name": "Ranjan Kumar Paswan",
+        "Company": "Wipro"
+      },
+      {
+        "id": "7",
+        "BoardRoll": "20402060023",
+        "Name": "Rahul Kumar",
+        "Company": "Wipro / Tata Power"
+      },
+      {
+        "id": "8",
+        "BoardRoll": "20402060024",
+        "Name": "Rahul Kumar Mahato",
+        "Company": "Tata Power / Wipro"
+      },
+      {
+        "id": "9",
+        "BoardRoll": "20402060032",
+        "Name": "Saloni Das",
+        "Company": "Wipro / L & T"
+      },
+      {
+        "id": "10",
+        "BoardRoll": "20402060036",
+        "Name": "Shubham Kumar Mishra",
+        "Company": "Wipro / Tata Technologies"
+      },
+      {
+        "id": "11",
+        "BoardRoll": "20402060007",
+        "Name": "Ankita Kumari",
+        "Company": "L & T / Tata Power"
+      },
+      {
+        "id": "12",
+        "BoardRoll": "20402060015",
+        "Name": "Kumari Divya",
+        "Company": "Anand Group, Rajasthan / Wipro / L & T"
+      },
+      {
+        "id": "13",
+        "BoardRoll": "20402060026",
+        "Name": "Raj Sinha",
+        "Company": "Wipro / L & T / Tata Power"
+      },
+      {
+        "id": "14",
+        "BoardRoll": "20402060040",
+        "Name": "Vikash Kumar",
+        "Company": "Wipro / L & T"
+      },
+      {
+        "id": "15",
+        "BoardRoll": "20402060041",
+        "Name": "Vishal Mandi",
+        "Company": "Wipro"
+      },
+      {
+        "id": "16",
+        "BoardRoll": "20402060042",
+        "Name": "Vivek Prasad",
+        "Company": "Wipro"
+      },
+      {
+        "id": "17",
+        "BoardRoll": "20402060001",
+        "Name": "Abdul Shakib",
+        "Company": "Wipro"
+      },
+      {
+        "id": "18",
+        "BoardRoll": "20402060005",
+        "Name": "Aman Kumar Paswan",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "19",
+        "BoardRoll": "20402060031",
+        "Name": "Rupesh Kumar Sah",
+        "Company": "Tata Power"
+      },
+      {
+        "id": "20",
+        "BoardRoll": "20402060028",
+        "Name": "Raushan Kr Vishwakarma",
+        "Company": "HL Mando, Chennai"
+      },
+      {
+        "id": "21",
+        "BoardRoll": "20402060030",
+        "Name": "Ritu Kumari",
+        "Company": "HL Mando, Chennai"
+      }
+    ]
+  }
+}

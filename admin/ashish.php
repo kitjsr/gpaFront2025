@@ -1,0 +1,352 @@
+<?php
+require_once("models/config.php");
+if (!securePage($_SERVER['PHP_SELF'])){die();}
+require_once("models/header.php");
+
+///////////////// USER'S ACTIVITY RECORD /////////////
+date_default_timezone_set('Asia/Calcutta');
+$date=date("Y-m-d h:i:s");
+$ip = $_SERVER['REMOTE_ADDR'];
+$browser = $_SERVER['HTTP_USER_AGENT'];
+$user=$loggedInUser->displayname;
+$pageName = basename($_SERVER['PHP_SELF']);
+$user_activity="Fee Deposit";
+$saveRecord=addUserRecord($user, $ip, $browser, $pageName, $user_activity, $date);
+/////////////////////////////////////////////////////////////////////////////////
+?>
+
+    <body class="skin-blue">
+        <!-- header logo: style can be found in header.less -->
+        <header class="header">
+            <a href="account.php" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                Admin Panel
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <?php
+						include("right_top_dropdown_menu.php");
+						?>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <?php
+						include("account_dropdown_menu.php");
+						?>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="wrapper row-offcanvas row-offcanvas-left">
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="left-side sidebar-offcanvas">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <!-- Sidebar user panel -->
+                    <div class="user-panel">
+                        <div class="pull-left image">
+                            <?php
+							if ($loggedInUser->checkPermission(array(4))){
+								if($student['photo']!=null){
+									echo "
+                                   <img src='uploads/".$student['photo']."' class='img-circle' alt='Photo' />";
+								}
+								else{
+								echo "<img src='img/avatar3.png' class='img-circle' alt='Photo' />";
+								}
+							}
+else{
+								echo "<img src='img/avatar3.png' class='img-circle' alt='Photo' />";
+								}
+                            ?>
+                        </div>
+                        <div class="pull-left info">
+                            <p><?php  echo"$loggedInUser->displayname"; ?></p>
+
+                            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                        </div>
+                    </div>
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                      <?php
+					include("left-nav.php");
+					?>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Right side column. Contains the navbar and content of the page -->
+            <aside class="right-side">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        <i class='fa fa-rupee'></i> Fee Deposit
+                        <small>Dashboard</small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="account.php"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li class="active"><i class='fa fa-rupee'></i> Fee Deposit</li>
+                    </ol>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <!-- top row -->
+                    <div class="row">
+                        <div class="col-xs-12 connectedSortable">
+                            
+                        </div><!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+					<div class="row">
+						<div class="col-md-6">
+						   
+						    
+						    <div class='alert alert-warning' style='overflow-x:auto'>
+						        <table class='table table-bordered table-hover'>
+                                    <tr>
+                                        <th colspan='6' class='text-center'> तीसरे वर्ष का शुल्क संरचना </th>
+                                    </tr> 
+                                    <tr>
+                                        <th>सामान्य/पिछड़ा वर्ग</th>
+                                        <th>राशि(शब्दों में)</th>
+                                        <th>अनुसूचित जाति/जनजाति</th>
+                                        <th>राशि(शब्दों में)</th>
+                                        <th>TFW/छात्राओं</th>
+                                        <th>राशि(शब्दों में)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>नामांकन शुल्क</td>
+                                        <td class='text-right'>05</td>
+                                        <td>नामांकन शुल्क</td>
+                                        <td class='text-right'>05</td>
+                                        <td>नामांकन शुल्क</td>
+                                        <td class='text-right'>05</td>
+                                    </tr>
+                                    <tr>
+                                        <td>शिक्षण शुल्क</td>
+                                        <td class='text-right'>2400</td>
+                                        <td>शिक्षण शुल्क</td>
+                                        <td class='text-right'>600</td>
+                                        <td>शिक्षण शुल्क</td>
+                                        <td class='text-right'>00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>विशेष शुल्क</td>
+                                        <td class='text-right'>200</td>
+                                        <td>विशेष शुल्क</td>
+                                        <td class='text-right'>200</td>
+                                        <td>विशेष शुल्क</td>
+                                        <td class='text-right'>200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>कॉशन मनी</td>
+                                        <td class='text-right'>00</td>
+                                        <td>कॉशन मनी</td>
+                                        <td class='text-right'>00</td>
+                                        <td>कॉशन मनी</td>
+                                        <td class='text-right'>00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>कुल राशि</td>
+                                        <td class='text-right'>2605</td>
+                                        <td>कुल राशि</td>
+                                        <td class='text-right'>805</td>
+                                        <td>कुल राशि</td>
+                                        <td class='text-right'>205</td>
+                                    </tr>
+                                </table>
+						        
+						    </div>
+						    <div class='alert alert-danger'>
+						        <h4 class='alert-heading'>Important Notice!</h4>
+						        <ul class='list-unstyled'>
+						            <li>Step 1 : Check Fee Structure</li>
+						            <li>Step 2 : For Payment Third Year Admission Fee Click on Proceed to Pay.</li>
+						        </ul> 
+						        <hr>
+						        <p>If Admission Fee mismatched then Don't Pay, contact Mr. Kunal Mahto, Lecturer (CSE) - <a href='tel:9470312947'>9470312947</a></p>
+						  </div>
+						<?php
+						////////
+					
+								$pcode=2;
+							
+					
+						///////////
+						function feeCalc($category,$tfw,$gender,$admyear){
+							switch($admyear){
+								case 1:
+									if($category==2 || $category==3 || $tfw==1 || $gender==2){
+										$admfee=5;
+										$tutionfee=0;
+										$cautionfee=200;
+										$specialfee=200;
+										$totalfee=$admfee+$tutionfee+$cautionfee+$specialfee;
+									}
+									else{
+										$admfee=5;
+										$tutionfee=1400;
+										$cautionfee=200;
+										$specialfee=200;
+										$totalfee=$admfee+$tutionfee+$cautionfee+$specialfee;
+									}
+
+									break;
+								case 2:
+									if($tfw==1 || $gender==2){
+										$admfee=5;
+										$tutionfee=0;
+										$cautionfee=0;
+										$specialfee=200;
+										$totalfee=$admfee+$tutionfee+$cautionfee+$specialfee;
+									}
+									else if($category==2 || $category==3){
+										$admfee=5;
+										$tutionfee=600;
+										$cautionfee=0;
+										$specialfee=200;
+										$totalfee=$admfee+$tutionfee+$cautionfee+$specialfee;
+									}
+									else{
+										$admfee=5;
+										$tutionfee=2400;
+										$cautionfee=0;
+										$specialfee=200;
+										$totalfee=$admfee+$tutionfee+$cautionfee+$specialfee;
+									}
+									break;
+								default:
+									echo "Something Wrong";
+							}
+							return array($totalfee,$admfee,$tutionfee,$cautionfee,$specialfee);
+						}
+						list($f1,$f2,$f3,$f4,$f5)  = feeCalc($student['category'],$student['tfw'],$student['gender'],$pcode); 
+
+							//////////////
+							$MerchantID="GOVPOLCADT";
+							$CustomerID=$student['sid'];//sid
+							$TxnAmount=2200;//amount
+							$SecurityID="govpolcadt";
+							$AdditionalInfo1=$student['cid'];//cid
+							$AdditionalInfo2=$student['name'];//name
+							$AdditionalInfo3=$student['branch'];//branch
+							$AdditionalInfo4=$student['sem'];//sem
+							$AdditionalInfo5="NA";//roll
+							$AdditionalInfo6=$pcode;//pcode - payment code
+							//$Filler1="";
+							//$BankID="";
+							//$Filler2="";
+							//$Filler3="";
+							//$CurrencyType="";
+							//$ItemCode="";
+							//$TypeField1="";
+							//$Filler4="";
+							//$Filler5="";
+
+							/////////////
+							//$str = 'TESTME|UATTXN0001|NA|2|NA|NA|NA|INR|NA|R|NA|NA|NA|F|Andheri|Mumbai|02240920005|support@billdesk.com|NA|NA|NA|https://www.billdesk.com';
+							$str = "".$MerchantID."|".$CustomerID."|NA|".$TxnAmount."|NA|NA|NA|INR|NA|R|".$SecurityID."|NA|NA|F|".$AdditionalInfo1."|".$AdditionalInfo2."|".$AdditionalInfo3."|".$AdditionalInfo4."|".$AdditionalInfo5."|".$AdditionalInfo6."|NA|NA";
+
+							$checksum = hash_hmac('sha256',$str,'qxPCDqF1ppdIt890j4F2IVxZtwYVndTx', false); 
+							$checksum = strtoupper($checksum);
+							$final_msg="".$str."|".$checksum."";
+
+					?>
+					<script src="https://pgi.billdesk.com/payments-checkout-widget/src/app.bundle.js"></script>
+
+
+
+
+					 <center><a class="main-btn w3-button w3-round-large w3-blue" href="javascript:void(0)" onclick="validateForm()"
+										data-animation="fadeInUp" data-delay="1.5s" class="w3-button w3-blue btn btn-danger"><i class='fa fa-hand-o-right'></i> Proceed To Pay</a></center>
+					<script src="https://pgi.billdesk.com/payments-checkout-widget1/src/app.bundle.js"></script>
+
+					 <form method="post" action="" name="form1" id="form1">
+
+
+						   <!-- <input type="text" name="childMsgString" value="merchantid|9876543210|NA|1|NA|NA|NA|INR|NA|R|security id|NA|NA|F|DSFDSF|sds@g.c|TDC 1ST YEAR|ARTS|NA|NA|NA|NA|checksumvalue">-->
+							<input type="hidden" name="childMsgString" value="<?php echo $final_msg; ?>">
+
+
+						</form>
+					<script type="text/javascript">
+							function validateForm() {
+
+									bdPayment.initialize({
+										msg: document.form1.childMsgString.value,options: {enableChildWindowPosting: true,
+											enablePaymentRetry: true,
+								retry_attempt_count: 3},
+										callbackUrl:'https://www.gpadp.org.in/admin/thirdgpay.php'
+
+										})
+
+							}
+										</script>
+										
+										
+						</div>
+						<!-- col-md-6-->
+						<div class="col-md-6">
+							<h2>Transaction Details</h2>
+                          	<table id='example1' class='table table-bordered table-striped table-hover'>
+                        	<thead>
+								<th style='text-align:left;'>Purpose</th>
+								<th style='text-align:center;'>Trans. Id</th>
+                                <th style='text-align:center;'>Amount</th>
+                                <th style='text-align:center;'>Date</th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                            <?php
+								$data=fetchSingleStudentPay($student['cid']);
+								foreach ($data as $row){
+								echo"
+                            	<tr>
+                                	<td style='text-align:left;'>".$row['pcode']."</td>
+									<td style='text-align:center;'>".$row['trno']."</td>
+									<td style='text-align:right;'>".$row['amount']."</td>
+									<td style='text-align:center;'>".date( "j M, Y", strtotime($row['txndate']))."</td>
+									<td style='text-align:center;'><a href='third_invoice.php?fid=".$row['fid']."' target='_blank'><i class='fa fa-file'></i></a></td>
+                                </tr>";
+								}
+							
+							
+							?>
+                            </tbody>
+                            <tfoot>
+                                         
+                                        </tfoot>
+                                    </table>
+                                
+						</div>
+					</div>
+                    
+                    
+
+                </section><!-- /.content -->
+            </aside><!-- /.right-side -->
+        </div><!-- ./wrapper -->
+
+       
+
+
+       <!-- jQuery 2.0.2 -->
+        <script src="js/jquery.min.js"></script>
+       <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- AdminLTE App -->
+        <script src="js/AdminLTE/app.js" type="text/javascript"></script>
+
+        <!-- page script -->
+        
+
+    </body>
+</html>

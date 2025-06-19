@@ -1,0 +1,237 @@
+[
+    {
+        "type": "permanent",
+        "data": [
+            {
+                "id": 1,
+                "name": "DR SRIKANT PRASAD",
+                "designation": "HOD-cum-Principal",
+                "url": "https://gpa.ac.in/img/sp.jpg",
+                "department": "Electrical Engineering",
+                "resume": "https://gpa.ac.in/pdf/sp.pdf"
+            },
+            {
+                "id": 2,
+                "name": "MR REWATI RAMAN UPADHYAY",
+                "designation": "Lecturer (SG)",
+                "url": "https://gpa.ac.in/img/rru.jpg",
+                "department": "Metallurgical Engineering",
+                "resume": "https://gpa.ac.in/pdf/rru.pdf"
+            },
+            {
+                "id": 3,
+                "name": "MR BIKRAM MAJHI",
+                "designation": "Lecturer",
+                "url": "https://gpa.ac.in/img/faculty/bm.webp",
+                "department": "Electrical Engineering",
+                "resume": "https://gpa.ac.in/pdf/faculty/bm.pdf",
+                "he": "B.Sc. Engg. (Electrical)",
+                "te": 16,
+                "ie": 0
+            },
+            {
+                "id": 4,
+                "name": "MR SURESH TIWARY",
+                "designation": "Lecturer",
+                "url": "https://gpa.ac.in/img/faculty/st.png",
+                "department": "Mechanical Engineering",
+                "resume": "https://gpa.ac.in/pdf/faculty/st.pdf",
+                "he": "Ph.D. (Pursuing)",
+                "te": 16,
+                "ie": 4
+            },
+            {
+                "id": 5,
+                "name": "DR S. D. Ram",
+                "designation": "Lecturer (SG)",
+                "url": "https://gpa.ac.in/img/faculty/sd.jpg",
+                "department": "Mechanical Engineering",
+                "resume": "https://gpa.ac.in/pdf/faculty/sd.pdf",
+                "he": "Ph.D.",
+                "te": 35,
+                "ie": 0
+            },
+            {
+                "id": 6,
+                "name": "MR RAJ KAMAL MINZ",
+                "designation": "Lecturer",
+                "url": "https://gpa.ac.in/img/faculty/rkminz_sir.jpeg",
+                "department": "Mechanical Engineering",
+                "resume": "https://gpa.ac.in/pdf/faculty/rkminz_sir.pdf",
+                "he": "B. Tech.",
+                "te": 16,
+                "ie": 0
+            }
+        ]
+    },
+    {
+        "type": "nbl",
+        "data": [
+            {
+                "id": 1,
+                "name": "DR SANJEEV KR GAGRAI",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/skg.webp",
+                "department": "Electrical Engineering",
+                "he": "Ph.D.",
+                "resume": "https://gpa.ac.in/pdf/faculty/skg.pdf",
+                "te": 3,
+                "ie": 0
+            },
+            {
+                "id": 2,
+                "name": "SMT SUSHMA KUMARI",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/sushma_mam.webp",
+                "department": "Electrical Engineering",
+                "he": "B. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/sushma_mam.pdf",
+                "te": 8,
+                "ie": 0
+            },
+            {
+                "id": 3,
+                "name": "MR PRATIK MAHATO",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/pm.webp",
+                "department": "Electrical Engineering",
+                "he": "B. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/pm.pdf",
+                "te": 5,
+                "ie": 1
+            },
+            {
+                "id": 4,
+                "name": "MR RAJU TUDU",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/raju_sir.webp",
+                "department": "Mechanical Engineering",
+                "he": "M. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/raju_sir.pdf",
+                "te": 10,
+                "ie": 0
+            },
+            {
+                "id": 5,
+                "name": "MR DEEPAK KUMAR",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/deepak_sir.webp",
+                "department": "Mechanical Engineering",
+                "he": "M. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/deepak_sir.pdf",
+                "te": 6,
+                "ie": 0
+            },
+            {
+                "id": 6,
+                "name": "MR NAVIN KR. PASWAN",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/nkp.webp",
+                "department": "Mechanical Engineering",
+                "he": "B. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/nkp.pdf",
+                "te": 0,
+                "ie": 0
+            },
+            {
+                "id": 7,
+                "name": "MR GULSHAN KALUNDIA",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/gulshan_sir.webp",
+                "department": "Metallurgical Engineering",
+                "he": "M. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/gulshan_sir.pdf",
+                "te": 4,
+                "ie": 7
+            },
+            {
+                "id": 8,
+                "name": "MR KUNAL MAHTO",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/kunal_sir.webp",
+                "department": "Computer Sc. & Engineering",
+                "he": "Ph.D.(Pursuing)",
+                "resume": "https://gpa.ac.in/pdf/faculty/kunal_sir.pdf",
+                "te": 8,
+                "ie": 1
+            },
+            {
+                "id": 9,
+                "name": "MISS MOMITA RANI GIRI",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/moumita.webp",
+                "department": "Computer Sc. & Engineering",
+                "he": "B. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/momita_mam.pdf",
+                "te": 6,
+                "ie": 0
+            },
+            {
+                "id": 10,
+                "name": "MR NIRAJ KUMAR",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/niraj_sir.webp",
+                "department": "Computer Sc. & Engineering",
+                "he": "B. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/niraj_sir.pdf",
+                "te": 4,
+                "ie": 2
+            },
+            {
+                "id": 11,
+                "name": "MISS PRIYANKA",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/pr.webp",
+                "department": "Computer Sc. & Engineering",
+                "he": "B. Tech.",
+                "resume": "https://gpa.ac.in/pdf/faculty/priyanka_mam.pdf",
+                "te": 6,
+                "ie": 0
+            },
+            {
+                "id": 12,
+                "name": "MR BABLU KR SINGH",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/bks.webp",
+                "department": "Mathematics",
+                "he": "M. Sc.",
+                "resume": "https://gpa.ac.in/pdf/faculty/bks.pdf",
+                "te": 20,
+                "ie": 0
+            },
+            {
+                "id": 13,
+                "name": "DR CHETNA SUMEDHA",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/chetna_mam.webp",
+                "department": "Physics",
+                "he": "Ph.D.",
+                "resume": "https://gpa.ac.in/pdf/faculty/chetna_mam.pdf",
+                "te": 34,
+                "ie": 0
+            },
+            {
+                "id": 14,
+                "name": "SMT PRIYA PANDEY",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/priya_mam.webp",
+                "department": "Chemistry",
+                "he": "M.Sc.",
+                "resume": "https://gpa.ac.in/pdf/faculty/priya_mam.pdf",
+                "te": 10,
+                "ie": 0
+            },
+            {
+                "id": 15,
+                "name": "MISS SHWETA SARANGI",
+                "designation": "Lecturer (NBL)",
+                "url": "https://gpa.ac.in/assets/images/sweta_mam.webp",
+                "department": "Mathematics",
+                "he": "M.Sc.",
+                "resume": "https://gpa.ac.in/pdf/faculty/sweta_mam.pdf",
+                "te": 4,
+                "ie": 0
+            }
+        ]
+    }
+]
