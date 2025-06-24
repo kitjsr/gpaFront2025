@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$conn = new mysqli("localhost", "gpaac_panditidkun", "Nh2He[tZ,M4w", "gpaac_gpakun");
+$conn = new mysqli("localhost", "gpa7097", "Gpa@832109KunalM*_*", "gpadp");
 
 
 //Check connection was successful

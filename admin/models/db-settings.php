@@ -2,9 +2,9 @@
 
 //Database Information
 $db_host = "localhost"; //Host address (most likely localhost)
-$db_name = "gpaac_gpakun"; //Name of Database
-$db_user = "gpaac_panditidkun"; //Name of database user
-$db_pass = "Nh2He[tZ,M4w"; //Password for database user
+$db_name = "gpadp"; //Name of Database
+$db_user = "gpa7097"; //Name of database user
+$db_pass = "Gpa@832109KunalM*_*"; //Password for database user
 $db_table_prefix = "uc_";
 GLOBAL $errors;
 GLOBAL $successes;
